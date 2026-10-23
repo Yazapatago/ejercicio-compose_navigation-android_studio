@@ -1,0 +1,13 @@
+* text=auto
+
+# Scripts de Windows con finales de línea CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Script de Linux/Mac con finales de línea LF
+gradlew text eol=lf
+
+# Archivos binarios
+*.jar binary
+*.webp binary
+*.png binary
